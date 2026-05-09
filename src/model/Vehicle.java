@@ -55,15 +55,11 @@ public abstract class Vehicle {
     }
 
     // methods of Vehicle class
-    private void start(){
-        System.out.println("Vehicle Started");
-    }
+    public abstract void start();
+    public abstract void stop();
+    public abstract double calculateFair();
 
-    private void stop(){
-        System.out.println("Vehicle Stopped");
-    }
-
-    private void printDetails(){
+    public void printDetails(){
         System.out.println("ID: " + id);
         System.out.println("Capacity: " + capacity);
         System.out.println("Speed: " + speed);
