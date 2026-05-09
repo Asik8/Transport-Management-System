@@ -1,4 +1,5 @@
 package model;
 
-public class Bus {
+public class Bus extends Vehicle {
+
 }

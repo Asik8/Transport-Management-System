@@ -53,4 +53,20 @@ public abstract class Vehicle {
     public void setRoute(Route route) {
         this.route = route;
     }
+
+    // methods of Vehicle class
+    private void start(){
+        System.out.println("Vehicle Started");
+    }
+
+    private void stop(){
+        System.out.println("Vehicle Stopped");
+    }
+
+    private void printDetails(){
+        System.out.println("ID: " + id);
+        System.out.println("Capacity: " + capacity);
+        System.out.println("Speed: " + speed);
+        System.out.println("Route: " + route);
+    }
 }
