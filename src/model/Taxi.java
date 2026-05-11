@@ -20,8 +20,8 @@ public class Taxi extends Vehicle {
     }
 
     @Override
-    public void Details() {
-        super.Details();
+    public void details() {
+        super.details();
         System.out.println("Total Fair: "+calculateFair());
     }
 
