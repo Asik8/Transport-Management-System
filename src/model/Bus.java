@@ -18,6 +18,12 @@ public class Bus extends Vehicle {
         return distance*2.5;
     }
 
+    @Override
+    public void details(){
+        super.details();
+        System.out.println("Total Fair: "+calculateFair());
+    }
+
     // No Argument Constructor
     public Bus() {
     }
