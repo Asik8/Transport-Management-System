@@ -4,14 +4,14 @@ public class Route {
     private String routeId;
     private String startPoint;
     private String endPoint;
-    private int distance;
+    private double distance;
 
     // No Argument Constructor
     public Route() {
     }
 
     // All Argument Constructor
-    public Route(String routeId, String startPoint, String endPoint, int distance) {
+    public Route(String routeId, String startPoint, String endPoint, double distance) {
         this.routeId = routeId;
         this.startPoint = startPoint;
         this.endPoint = endPoint;
@@ -43,11 +43,11 @@ public class Route {
         this.endPoint = endPoint;
     }
 
-    public int getDistance() {
+    public double getDistance() {
         return distance;
     }
 
-    public void setDistance(int distance) {
+    public void setDistance(double distance) {
         this.distance = distance;
     }
 }
