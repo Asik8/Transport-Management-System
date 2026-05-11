@@ -59,7 +59,7 @@ public abstract class Vehicle {
     public abstract void stop();
     public abstract double calculateFair();
 
-    public void Details(){
+    public void details(){
         System.out.println("ID: " + id);
         System.out.println("Capacity: " + capacity);
         System.out.println("Speed: " + speed);
